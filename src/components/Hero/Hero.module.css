@@ -1,0 +1,80 @@
+.hero {
+  position: relative;
+  width: 100%;
+
+  height: 761px;
+
+  background: url('../../icons/Picture.png') center / cover no-repeat;
+  padding: 195px 0px;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  color: rgba(0, 0, 0, 0.2);
+  transform: rotate(-180deg);
+
+  z-index: 1;
+}
+
+.heroContent {
+  position: relative;
+  z-index: 2;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  gap: 40px;
+  color: #f7f7f7;
+}
+.heroTittle {
+  gap: 16px;
+}
+.heroTittle h1 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.2;
+  letter-spacing: 0;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.heroTittle h2 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.heroButton {
+  width: 173px;
+  height: 56px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 10px;
+
+  border-radius: 200px;
+  background: #829b91;
+  color: #fff;
+
+  text-decoration: none;
+
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+
+  transition: background-color 0.3s;
+  letter-spacing: -0.08px;
+}
+
+.heroButton:hover {
+  background: #6d7b75;
+}

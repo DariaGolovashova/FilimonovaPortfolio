@@ -1,0 +1,46 @@
+.reviews {
+  width: 623px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-top: 12px;
+}
+
+.reviewCard {
+  background: #f7f7f7;
+  padding: 16px;
+  border-radius: 16px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.reviewHeader {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-weight: 600;
+}
+
+.name {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.comment {
+  font-size: 16px;
+  line-height: 24px;
+}

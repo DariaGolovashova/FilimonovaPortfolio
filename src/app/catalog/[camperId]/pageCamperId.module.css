@@ -1,0 +1,129 @@
+.gallerySection {
+  width: 638px;
+}
+
+.details,
+.description,
+.gallerySection,
+.infoSection {
+  box-sizing: border-box;
+}
+
+.infoSection {
+  max-width: 650px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-left: 16px;
+}
+
+.description {
+  width: 100%;
+
+  background: #f7f7f7;
+
+  border-radius: 16px;
+
+  padding: 24px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.description h2 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+  font-size: 16px;
+}
+.ratingItem {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.camperPrice {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.camperDescription {
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #475467;
+}
+
+.details {
+  width: 100%;
+
+  background: #f7f7f7;
+
+  border-radius: 16px;
+
+  padding: 18px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 0;
+}
+
+.vehicleDetails {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  border-bottom: 1px solid #dadde1;
+  padding-bottom: 16px;
+}
+
+.detailsItem {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 18px;
+
+  border-bottom: 1px solid #d0d5dd;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  background-color: #f2f4f7;
+  border-radius: 100px;
+  margin-left: 8px;
+
+  font-size: 16px;
+  font-weight: 500;
+
+  white-space: nowrap;
+}
+
+.moreDetailsTabl {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sectionReviews {
+  width: 1312px;
+  height: 384px;
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+}

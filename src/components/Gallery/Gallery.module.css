@@ -1,0 +1,36 @@
+.gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.mainImage {
+  /* width: 638px;
+  height: 505px; */
+
+  border-radius: 16px;
+  object-fit: cover;
+}
+
+.thumbs {
+  margin-top: 32px;
+
+  display: flex;
+  gap: 32px;
+}
+
+.thumb {
+  /* width: 136px;
+  height: 144px; */
+
+  border-radius: 16px;
+  border: 3px solid #829b91;
+
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.thumbActive {
+  border: 3px solid #829b91;
+  transform: scale(1.05);
+}

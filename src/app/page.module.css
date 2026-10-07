@@ -1,0 +1,37 @@
+.page {
+  --background: #fafafa;
+  --foreground: #fff;
+
+  --text-primary: #000;
+  --text-secondary: #666;
+
+  --button-primary-hover: #383838;
+  --button-secondary-hover: #f2f2f2;
+  --button-secondary-border: #ebebeb;
+
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  font-family: var(--font-geist-sans);
+  background-color: var(--background);
+  width: 100%;
+}
+
+.main {
+  display: flex;
+  gap: 24px;
+  flex: 1;
+  width: 100%;
+  max-width: 1440px;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--foreground);
+}
+
+.filters {
+  display: flex;
+  gap: 32px;
+  align-items: flex-start;
+  padding: 24px;
+}
