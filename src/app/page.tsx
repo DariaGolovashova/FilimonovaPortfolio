@@ -3,6 +3,8 @@
 import css from './page.module.css';
 import Header from '../components/Header/Header';
 import Hero from '../components/Hero/Hero';
+import PortfolioGallery from '../components/PortfolioGallery/PortfolioGallery';
+
 
 export const metedata = {
   title: 'TravelTrucks',
@@ -15,6 +17,7 @@ export default function Home() {
       <main className={css.main}>
         <div className={css.container}>
           <Hero />
+          <PortfolioGallery />
         </div>
       </main>
     </div>

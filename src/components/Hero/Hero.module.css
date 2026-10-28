@@ -1,4 +1,4 @@
-.hero {
+/* .hero {
   position: relative;
   width: 100%;
 
@@ -77,4 +77,53 @@
 
 .heroButton:hover {
   background: #6d7b75;
+} */
+.hero {
+  position: relative;
+  width: 100%;
+  min-height: 761px;
+  background: url('../../icons/Picture.png') center / cover no-repeat;
+  padding: 195px 0;
+  display: flex;
+  align-items: center;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+  z-index: 1;
+}
+
+.heroContent {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #f7f7f7;
+}
+
+.heroTittle {
+  max-width: 800px;
+}
+
+.heroTittle h1 {
+  margin: 0 0 16px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.heroTittle h2 {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.5;
+  text-align: center;
 }
